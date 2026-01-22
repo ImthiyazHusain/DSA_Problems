@@ -1,4 +1,4 @@
-package Placement.recursion;
+package Recursion.mathSums;
 
 import java.util.Scanner;
 

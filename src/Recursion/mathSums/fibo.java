@@ -1,4 +1,4 @@
-package Recursion;
+package Recursion.mathSums;
 
 import java.util.Scanner;
 
