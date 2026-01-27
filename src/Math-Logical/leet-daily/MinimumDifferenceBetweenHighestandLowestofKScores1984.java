@@ -32,7 +32,7 @@ The minimum possible difference is 2.
 *******************************************************************************/
 import java.util.*;
 
-public class Main
+public class MinimumDifferenceBetweenHighestandLowestofKScores1984
 {
 	public static void main(String[] args) {
 	    Scanner sc = new Scanner(System.in);

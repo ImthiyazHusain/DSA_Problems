@@ -1,5 +1,7 @@
+package Recursion.mathSums;
+
 import java.util.*;
-public class palindrome{
+public class palindromeDig{
 	public static void main(String[] args) {
 		int n = 121219;
         if(n<0) n = n*-1;
