@@ -1,3 +1,4 @@
+package LeetCodeDaily;
 
 import java.util.*;
 public class MinimumAbsoluteDifference1200
