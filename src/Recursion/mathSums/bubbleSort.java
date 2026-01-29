@@ -3,7 +3,7 @@ package Recursion.mathSums;
 import java.util.Scanner;
 
 public class bubbleSort {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] arr = {9,7,6,5,4,3,2,1};
         sort(arr);
