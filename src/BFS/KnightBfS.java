@@ -30,7 +30,6 @@ public class KnightBfS {
             for(int i=0;i<8;i++){
                 int nx = node.x+x[i];
                 int ny = node.y+y[i];
-
                 if(nx>=0 && ny>=0 && nx<N && ny<N && !visited[nx][ny]){
                     q.add(new Node(nx,ny));
                     visited[nx][ny] = true;
