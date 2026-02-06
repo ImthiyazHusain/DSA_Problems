@@ -37,7 +37,7 @@ public class colorChange {
             }
             if(x>=0 && y>=0 && x<r && y+1<c && image[x][y+1]==currColor){
                 q.add(new int[] {x,y+1});
-            }~
+            }
         }
         return image;
     }
