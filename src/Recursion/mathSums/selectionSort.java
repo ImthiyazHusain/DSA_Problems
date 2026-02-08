@@ -1,8 +1,6 @@
 package Recursion.mathSums;
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
-import java.util.Scanner;
+import java.util.*;
 
 public class selectionSort {
     static void main(String[] args) {
