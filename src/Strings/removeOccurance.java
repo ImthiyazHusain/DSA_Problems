@@ -21,6 +21,6 @@ public class removeOccurance {
                 sb.append(e.getKey());
             }
         }
-        System.out.println(sb.toString());
+        System.out.println(sb);
     }
 }
