@@ -6,20 +6,13 @@ public class longestIncreasingSubsequence {
     static void main() {
         int[] arr = {4,10,4,3,8,9};
         List<Integer> len = new ArrayList<>();
-        int prev = -1;
         for(int i=0;i<arr.length;i++) {
-            if (i == 0) {
+            if(len.size()==0 || arr[i]>len.get(len.size()-1)){
                 len.add(arr[i]);
-                prev = arr[i];
-                continue;
             }
-            if (arr[i] > prev) {
-                int pos = findNextPos(len, arr[i]);
-                if(pos>len.size()){
-                    len.add(arr[i]);
-                }else{
-                    len.add(pos,arr[i]);
-                }
+            else{
+                int pos = findNextPos(len,arr[i]);
+                len.set(pos,arr[i]);
             }
         }
         System.out.println(len);
