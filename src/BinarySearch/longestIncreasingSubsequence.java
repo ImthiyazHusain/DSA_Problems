@@ -20,7 +20,7 @@ public class longestIncreasingSubsequence {
     public static int findNextPos(List<Integer> list,int t){
         int s = 0;
         int e = list.size()-1;
-        while(s<e){
+        while(s<=e){
             int mid = s+(e-s)/2;
             if(t>list.get(mid)){
                 s=mid+1;
